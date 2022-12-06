@@ -1,0 +1,23 @@
+{
+  "name": "backengg-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build":"node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "heroku": "^7.63.0",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
