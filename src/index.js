@@ -4,7 +4,9 @@ var path = require('path')
 const APP_PORT = process.env.PORT || 3000
 const app = http.createServer(requestHandler)
 
-app.listen(APP_PORT)
+app.listen(APP_PORT, (req, res)=>{
+    console.log(`Server is running on port ${APP_PORT}`)
+})
 
 // handles all http requests to the server
 function requestHandler(request, response) {
