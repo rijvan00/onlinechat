@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "build":"node index.js"
+    "build": "webpack"
   },
   "author": "mark42",
   "license": "ISC",
@@ -14,9 +14,12 @@
     "http": "^0.0.1-security",
     "path": "^0.12.7",
     "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1"
+    "socket.io-client": "^4.4.1",
+    "webpack": "^5.75.0"
   },
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  },
   "description": ""
 }
